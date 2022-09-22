@@ -1,0 +1,19 @@
+public class Student {
+	int id;
+	String name;
+	Student(int id,String name){
+		
+		this.id=id;
+		this.name=name;
+	}
+	public static void main(String[]args) {
+		
+		Student s1 = new Student (105,"abantika");
+		System.out.println(s1.id);
+		System.out.println(s1.name);
+		Student s2 = new Student (108,"Ankita");
+		System.out.println(s2.id);
+		System.out.println(s2.name);
+	}
+
+}
